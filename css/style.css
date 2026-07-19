@@ -246,8 +246,9 @@ main { overflow: hidden; }
   animation: spin 1.1s linear infinite;
 }
 .loader-logo {
-  width: 62px;
-  height: 62px;
+  width: 80px;
+  height: auto;
+  border-radius: var(--radius-sm);
   animation: pulseLogo 2s ease-in-out infinite;
 }
 @keyframes spin { to { transform: rotate(360deg); } }
@@ -284,7 +285,7 @@ main { overflow: hidden; }
   align-items: center;
   gap: 0.7rem;
 }
-.brand-logo { width: 42px; height: 42px; flex-shrink: 0; }
+.brand-logo { width: auto; height: 42px; flex-shrink: 0; border-radius: var(--radius-sm); }
 .brand-text { display: flex; align-items: baseline; gap: 0.35rem; }
 .brand-name,
 .brand-tagline {

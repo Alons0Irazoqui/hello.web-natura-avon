@@ -6,7 +6,7 @@ Este documento es un informe de negocio y marca para el desarrollador que está 
 
 - **Marca:** Natura ∙ Avon (representante/distribuidora independiente que vende por catálogo ambas marcas).
 - **Objetivo de la página:** No es una tienda en línea. Es una **landing de reclutamiento** — captar personas interesadas en unirse como vendedoras/emprendedoras por catálogo (modelo de venta directa).
-- **Teléfono de contacto:** 5540849754 (formato sugerido para mostrar: 55 4084 9754). Se asume lada México (+52) para cualquier botón de WhatsApp (`https://wa.me/525540849754`) — confirmar con el cliente antes de publicarlo.
+- **Teléfono de contacto:** 5662757843 (formato para mostrar: 56 6275 7843). Lada México (+52) para cualquier botón de WhatsApp (`https://wa.me/525662757843`) — confirmado por el cliente.
 - **Llamado a la acción principal:** que la persona interesada escriba/contacte por teléfono o WhatsApp para empezar su negocio.
 
 ## 2. Mensaje y propuesta de valor (tomado del flyer de referencia del cliente)
@@ -96,10 +96,10 @@ El sitio debe verse **premium, corporativo y de marca**, no como un flyer de cat
 ## 9. Resumen rápido para el desarrollador
 
 - Negocio: venta por catálogo Natura + Avon, esta página es para **reclutar vendedoras**, no para vender producto directo.
-- Teléfono: **5540849754**.
+- Teléfono: **5662757843**.
 - Mensaje/copy: tomar de la sección 2 (basado en el flyer real del cliente, `imagenes/7.jpeg`).
 - Colores: sección 4 (magenta/púrpura como protagonistas, rojo/naranja de logos como acento).
-- Logo: recortar de `imagenes/7.jpeg` y quitarle el fondo antes de usarlo.
+- Logo: `imagenes/logo.png` (logo oficial entregado por el cliente).
 - Estilo: premium, corporativo, big tech, elegante, minimalista.
 - Efectos obligatorios: loading screen con spinner + logo, animaciones al hacer scroll, typewriter en el título del hero, letras del hero cambiando de color.
 - Estructura: se respeta la plantilla existente, no se agregan secciones nuevas.
