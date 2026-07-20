@@ -359,6 +359,34 @@
           </div>
         </div>
       </div>
+
+      <!-- ============ FORMULARIO DE CONTACTO ============ -->
+      <div class="container contact-form-wrap">
+        <div class="contact-form-card reveal" data-reveal>
+          <p class="eyebrow reveal" data-reveal>Escríbeme</p>
+          <h3 class="contact-form-title">Déjame tus datos y te respondo por WhatsApp</h3>
+          <p class="contact-form-desc">Completa el formulario y al enviarlo se abrirá WhatsApp con tu información lista para mandarme.</p>
+
+          <form id="whatsapp-contact-form" class="contact-form">
+            <div class="form-field">
+              <label for="cf-nombre">Nombre</label>
+              <input type="text" id="cf-nombre" name="nombre" placeholder="Tu nombre" autocomplete="name" required>
+            </div>
+            <div class="form-field">
+              <label for="cf-telefono">Teléfono</label>
+              <input type="tel" id="cf-telefono" name="telefono" placeholder="10 dígitos" autocomplete="tel" minlength="10" required>
+            </div>
+            <div class="form-field form-field--full">
+              <label for="cf-mensaje">Mensaje / Producto de interés</label>
+              <textarea id="cf-mensaje" name="mensaje" rows="3" placeholder="Cuéntame qué te interesa (opcional)"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-lg contact-form-submit">
+              <svg viewBox="0 0 24 24" class="btn-icon" aria-hidden="true"><path fill="currentColor" d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.9-4.45 9.9-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2m0 1.8a8.1 8.1 0 0 1 5.75 2.38 8.07 8.07 0 0 1 2.38 5.73c0 4.48-3.65 8.12-8.14 8.12a8.1 8.1 0 0 1-4.13-1.13l-.3-.17-3.12.82.83-3.04-.19-.31a8.06 8.06 0 0 1-1.24-4.31c0-4.48 3.65-8.09 8.16-8.09m-4.48 4.19c-.15 0-.4.06-.6.28-.21.23-.8.77-.8 1.89s.82 2.2.93 2.35c.11.15 1.6 2.5 3.95 3.44 1.94.79 2.35.63 2.77.6.42-.04 1.36-.55 1.55-1.09.19-.53.19-.99.13-1.09-.06-.09-.21-.15-.44-.26-.23-.12-1.36-.67-1.57-.75-.21-.08-.36-.12-.52.11-.15.23-.6.75-.73.9-.13.15-.27.17-.5.06-.23-.12-.96-.35-1.83-1.13-.68-.6-1.13-1.35-1.27-1.58-.13-.23-.01-.35.1-.47.11-.11.23-.27.35-.4.11-.14.15-.24.23-.4.08-.15.04-.3-.02-.42-.06-.11-.52-1.28-.72-1.74-.19-.46-.38-.4-.52-.4Z"/></svg>
+              Enviar por WhatsApp
+            </button>
+          </form>
+        </div>
+      </div>
     </section>
 
   </main>
