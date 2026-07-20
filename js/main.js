@@ -187,4 +187,21 @@
       }, 200);
     });
   }
+
+  /* ============ FORMULARIO DE CONTACTO → WHATSAPP ============ */
+  const contactForm = document.getElementById('whatsapp-contact-form');
+  if (contactForm) {
+    contactForm.addEventListener('submit', (e) => {
+      e.preventDefault();
+      const nombre = contactForm.nombre.value.trim();
+      const telefono = contactForm.telefono.value.trim();
+      const mensaje = contactForm.mensaje.value.trim();
+
+      let text = `Hola, soy ${nombre}. Mi teléfono es ${telefono}.`;
+      if (mensaje) text += ` ${mensaje}`;
+
+      window.open(`https://wa.me/525540849754?text=${encodeURIComponent(text)}`, '_blank', 'noopener');
+      contactForm.reset();
+    });
+  }
 })();
